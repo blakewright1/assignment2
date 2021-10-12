@@ -1,0 +1,63 @@
+Git Lab tutorials completed: 10/8/2021
+GitHub account creation: ~Fall 2019
+
+1.
+C:\Users\blake\assignment2>git commit -F commit.txt
+[master c1daf40] Add git status output
+ 1 file changed, 9 insertions(+)
+ create mode 100644 docs/status.txt
+
+2. 
+9 total commits (3 by me). 
+Found using: git log
+
+3. 
+Fri Oct 8 12:48:54 2021 -0700 
+command: git log -1 README.md
+
+4.
+Branches allow you to divide up your work by what was accomplished in each commit.
+This is better than having one large branch with everything.
+Branches also allow multiple developers to work on new changes off of one stable
+commit, by each branching out from the stable commit.
+
+5. 
+Git log shows all the commits made to the repository, while git status shows just the
+current state of the local repository including what files are new, added, and the
+status relative to the remote repository.
+
+6.
+git log Vehicle.h
+
+7.
+git log --grep="file"
+
+8.
+Inheritance in OOP is where one class inherits or gets some attributes from another class.
+The class inheriting attributes would be considered the child and the class it inherits
+from would be the parent.
+Polymorphism is where one method call can be made on different objects from different class
+types and each will respond depending on the implementation in that class.
+Encapsulation is where a class/object only contains the information relevant to itself and 
+contains all of such information making it independent.
+
+9. 
+The main difference is that in the integration manager model the developers push changes
+from their public repository to one integration manager that handles all conflicts before
+pushing to the blessed repository, whereas in the dictator and lieutenants workflow there
+is an added line of lieutenants that each receive commits from a subset of the developers, 
+and the lieutenants then push to the dictator who pushes to the blessed repository.
+
+10. 
+Rather than all 100 developers pushing to a single integration manager which would become
+extremely hard to manage and successfully merge all changes, it could be broken down by
+having 10 developers push to a single lieutenant, and 10 lieutenants then pushing to 1
+dictator, so at each step there are changes coming from only 10 different sources making
+merging significantly easier.
+
+
+
+
+
+
+
